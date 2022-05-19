@@ -1,0 +1,13 @@
+@import url("../CSS/fonts.css");
+@import url("../CSS/pages.css");
+@import url("../CSS/hover.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+html{
+    background-color: #1F2028;
+}
