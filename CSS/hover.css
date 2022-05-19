@@ -1,0 +1,10 @@
+.slader_nav_item, .slide-image{
+    transition: all ease-in-out 0.25s;
+}
+.slader_nav_item:hover{
+    background-color: #1F2028;
+    border: 1px solid #6653b0;
+}
+.slader_nav_item:active{
+    background-color: yellow;
+}
