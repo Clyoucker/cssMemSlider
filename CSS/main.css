@@ -2,7 +2,6 @@
     flex: 1 0 auto;
 }
 .content{
-    position: relative;
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -12,48 +11,34 @@
 .slader{
     max-width: inherit;
     overflow: hidden;
-    max-height: 520px;
-    border: 1px solid blue;
-}
-.row{
-    margin: 0 auto;
-    margin-bottom: 25px;
-}
-.slades{
-    display: flex;
-    width: 400%;
-    height: 100%;
 }
 input[name="selecter"]{
     position: absolute;
     visibility: hidden;
 }
+.image-mem{
+    display: flex;
+    width: 400%;
+    max-height: 520px;
+}
 .slide-image{
     width: 25%;
 }
-.slade-navigation{
+
+
+
+.words-mem{
+    display: flex;
+    width: 400%;
+}
+.slide_word{
+    width: 25%;
+}
+.navigation{
     display: flex;
     gap: 16px;
 }
-
-.mem-texts{
-    overflow: hidden;
-    height: 20px;
-}
-
-.words{
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-}
-
-
-
-.slader-botton-content{
-    display: flex;
-    justify-content: space-between;
-}
-.slader_nav_item{
+.nav_item{
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -67,17 +52,17 @@ input[name="selecter"]{
 
 
 
-#r_1:checked ~ .slide_1{
 
+#r_1:checked ~ .image-mem{
     margin-left:0%;
 }
-#r_2:checked ~ .slide_1{
-    margin-left:-25%;
+#r_2:checked ~ .image-mem{
+    margin-left:-100%;
 }
-#r_3:checked ~ .slide_1{
-    margin-left:-50%;
+#r_3:checked ~ .image-mem{
+    margin-left:-200%;
 }
-#r_4:checked ~ .slide_1{
-    margin-left:-75%;
+#r_4:checked ~ .image-mem{
+    margin-left:-300%;
 }
 
